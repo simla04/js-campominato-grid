@@ -1,10 +1,11 @@
+// seleziono il tag select 
+let difficoltà = document.getElementById('difficoltà');
+
 const griglia = document.getElementById('griglia');
 // console.log( griglia );
 
 
 //creiamo una funzione per creare un div quadrato dentro la griglia
-
-
 function creazioneQuadrato(){
     const div = document.createElement('div');
     div.classList.add('quadrato');

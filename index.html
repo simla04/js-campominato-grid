@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campominato</title>
-    <link rel="stylesheet" href="./assets/style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Campominato</title>
+        <link rel="stylesheet" href="./assets/style.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1>Campo Minato</h1>
+                <select name="" id="difficolta">
+                    <option value="">Scegli una difficoltà</option>
+                    <option value="">Easy</option>
+                    <option value="">Medium</option>
+                    <option value="">Hard</option>
+                </select>
+            </div>
+        </header>
+
+
+        <main>
+            <div class="grid" id="griglia">
+                <!-- inseriamo dinamicamente nella  griglia i quadrati -->
+            </div>
+            <div id="punteggio">
+                <!-- inseriamo dinamicamente il punteggio -->
+            </div>
+        </main>
+
+        <!-- Nome utente -->
+        <!-- <input type="text" id="nome">
+        <button id="btnInvia"></button> -->
 
 
 
-</head>
-<body>
+        <script src="./assets/main.js"> </script>
 
-
-    <main>
-
-        <div class="grid" id="griglia">
-           
-            <!-- inseriamo dinamicamente una griglia -->
-        </div>
-    </main>
-
-
-
-    <script src="./assets/main.js"> </script>
-    
-</body>
+    </body>
 </html>
